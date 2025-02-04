@@ -1063,3 +1063,14 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
             line-height: 1.5;
         }
 }
+
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: 400px; /* Adjust height for mobile */
+    }
+    a {
+        font-size: 14px; /* Smaller button text for mobile */
+        padding: 8px 16px;
+    }
+}
